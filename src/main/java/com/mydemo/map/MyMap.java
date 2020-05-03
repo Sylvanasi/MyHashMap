@@ -9,5 +9,9 @@ public interface MyMap<K,V> {
         K getKey();
 
         V getValue();
+
+        void setValue(V value);
+
+        void setKey(K key);
     }
 }
